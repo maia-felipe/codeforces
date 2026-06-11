@@ -9,7 +9,7 @@ int main(){
         string s;
         cin >> s;
 
-        if(s.size()<=2){
+        if(s.size()==0){
             cout << 0 << endl;
             continue;
         }
