@@ -29,14 +29,13 @@ void solve() {
         ans.push_back(i);
     }
     
-    for (int i = 0; i < ans.size(); i++) {
-        cout << ans[i] << (i + 1 == ans.size() ? "" : " ");
+    for (int i = 0; i < 4*n; i++) {
+        cout << ans[i] << " ";
     }
     cout << "\n";
 }
 
 int main() {
-    // Fast I/O for competitive programming
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
@@ -47,3 +46,4 @@ int main() {
         }
     }
     return 0;
+}
